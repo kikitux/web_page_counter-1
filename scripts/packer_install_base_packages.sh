@@ -9,7 +9,8 @@ consul_template_version=0.21.3
 env_consul_version=0.9.0
 golang_version=1.13
 inspec_package_url=https://packages.chef.io/files/stable/inspec/3.9.0/ubuntu/18.04/inspec_3.9.0-1_amd64.deb
-inspec_package=${inspec_package_url##/*/}
+inspec_package=inspec_3.9.0-1_amd64.deb
+
 # TODO: Add checksums to ensure integrity of binaries downloaded
 
 install_hashicorp_binaries () {
